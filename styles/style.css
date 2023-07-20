@@ -1,0 +1,35 @@
+/* Styles for index.html */
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 12px;
+}
+
+li {
+    list-style-type: none;
+}
+
+.left {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.right {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+/* Flex the header container to align links and logo horizontally */
+.header-bar {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+    background-color: #1F2037;
+}
