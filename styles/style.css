@@ -31,5 +31,40 @@ li {
     display: flex;
     justify-content: space-between;
     padding: 12px;
-    background-color: #1F2037;
+    background-color: #1F2937;
 }
+
+.section-0 {
+    display: flex;
+    justify-content: center;
+    background-color: #1F2937;
+    gap: 48px;
+    padding: 16px;
+}
+
+.section-0 .content {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 450px;
+    padding: 16px;
+}
+
+.business-age {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+.business-statement {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+
+/*
+for visually checking box dimensions
+
+.image-box {
+    border: 1px solid red;
+}
+*/
