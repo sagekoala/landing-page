@@ -41,7 +41,8 @@ button {
 /* Flex the header container to align links and logo horizontally */
 .header-bar {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    gap: 300px;
     padding: 12px;
     background-color: #1F2937;
 }
@@ -51,14 +52,13 @@ button {
     justify-content: center;
     background-color: #1F2937;
     gap: 48px;
-    padding: 16px;
+    padding: 100px;
 }
 
 .section-0 .content {
     display: flex;
     flex-wrap: wrap;
     max-width: 450px;
-    padding: 16px;
 }
 
 .business-age {
