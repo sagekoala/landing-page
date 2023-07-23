@@ -1,5 +1,9 @@
 /* Styles for index.html */
 
+html {
+    box-sizing: border-box;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -7,6 +11,7 @@ body {
 
 ul {
     display: flex;
+    flex-wrap: wrap;
     margin: 0;
     padding: 0;
     gap: 12px;
@@ -38,19 +43,28 @@ button {
     color: #E5E7EB;
 }
 
+.image-box img {
+
+    width: 200px;
+
+}
 /* Flex the header container to align links and logo horizontally */
 .header-bar {
-    display: flex;
-    justify-content: space-around;
-    gap: 300px;
     padding: 12px;
     background-color: #1F2937;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 100px;
 }
 
 .section-0 {
     display: flex;
     justify-content: center;
     background-color: #1F2937;
+    flex: auto;
     gap: 48px;
     padding: 100px;
 }
@@ -112,6 +126,7 @@ button {
     align-items: center;
     font-size: 36px;
     font-weight: 900;
+    color: #1F2937;
 }
 
 .section-2 {
@@ -144,6 +159,10 @@ button {
     padding: 50px 100px;
     gap: 100px;
     background-color: #3882F6;
+}
+
+.sign-up-text {
+    font-size: 18px;
 }
 
 .text-container {
