@@ -7,3 +7,13 @@ The page is going to showcase:
 - An about section describing the different types of work
 - A section with contact information
 - A sign up
+
+Photo Credits: 
+
+Photo by Rodolfo Quirós from Pexels: https://www.pexels.com/photo/selective-focus-photography-cement-2219024/
+
+Photo by Anamul Rezwan from Pexels: https://www.pexels.com/photo/two-man-holding-white-paper-1216589/
+
+Photo by Ivan Samkov from Pexels: https://www.pexels.com/photo/a-person-using-a-laptop-while-on-the-carpentry-workbench-4491918/
+
+Photo by Jiyoung Kim from Pexels: https://www.pexels.com/photo/tower-crane-used-in-building-construction-4513940/
