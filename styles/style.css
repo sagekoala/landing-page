@@ -6,6 +6,10 @@
     padding: 0;
 }
 
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
 /* header-bar */
 
 ul {
@@ -129,9 +133,8 @@ button {
 
 .section-1 .content {
     display: flex;
-    flex: 1;
     height: 100px;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     font-size: 36px;
     font-weight: 900;
