@@ -1,0 +1,52 @@
+/* Styles for index.html */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* header-bar */
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    gap: 16px;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    color: #f9FAF8;
+    text-decoration: none;
+}
+
+/* Flex the header container to align links and logo horizontally */
+.header-bar {
+    padding: 12px;
+    background-color: #1F2937;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 150px;
+}
+
+.left {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.right {
+    font-size: 18px;
+    color: #E5E7EB;
+}
