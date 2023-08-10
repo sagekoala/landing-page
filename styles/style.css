@@ -24,6 +24,11 @@ li {
     list-style-type: none;
 }
 
+a {
+    color: #f9FAF8;
+    text-decoration: none;
+}
+
 /* Flex the header container to align links and logo horizontally */
 .header-bar {
     padding: 12px;
