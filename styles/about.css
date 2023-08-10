@@ -12,7 +12,7 @@ body {
 
 /* header-bar */
 
-ul {
+.header-container ul {
     display: flex;
     flex-wrap: wrap;
     margin: 0;
@@ -20,7 +20,7 @@ ul {
     gap: 16px;
 }
 
-li {
+.header-container li {
     list-style-type: none;
 }
 
@@ -50,3 +50,26 @@ a {
     font-size: 18px;
     color: #E5E7EB;
 }
+
+/* section-0 */
+
+.content-container {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+    margin: 20px;
+}
+
+.content {
+    width: 800px;
+}
+
+.text {
+    letter-spacing: 2px;
+    margin: 8px 0;
+}
+
+.content ol {
+    list-style-position: inside;
+}
+
