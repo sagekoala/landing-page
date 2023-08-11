@@ -19,3 +19,7 @@ Photo by Ivan Samkov from Pexels: https://www.pexels.com/photo/a-person-using-a-
 Photo by Jiyoung Kim from Pexels: https://www.pexels.com/photo/tower-crane-used-in-building-construction-4513940/
 
 Photo by Anete Lusina from Pexels: https://www.pexels.com/photo/instruments-prepared-for-measurements-in-house-4792479/
+
+Photo by Arın  Turkay: https://www.pexels.com/photo/white-and-orange-road-safety-cone-1088169/
+
+Photo by Edgard Motta: https://www.pexels.com/photo/stones-made-into-a-flooring-8454814/
