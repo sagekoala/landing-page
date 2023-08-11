@@ -17,3 +17,5 @@ Photo by Anamul Rezwan from Pexels: https://www.pexels.com/photo/two-man-holding
 Photo by Ivan Samkov from Pexels: https://www.pexels.com/photo/a-person-using-a-laptop-while-on-the-carpentry-workbench-4491918/
 
 Photo by Jiyoung Kim from Pexels: https://www.pexels.com/photo/tower-crane-used-in-building-construction-4513940/
+
+Photo by Anete Lusina from Pexels: https://www.pexels.com/photo/instruments-prepared-for-measurements-in-house-4792479/
