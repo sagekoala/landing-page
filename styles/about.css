@@ -53,6 +53,7 @@ a {
 
 /* section-0 */
 
+/* Note, content-container and .content apply to section-0 and section-1*/
 .content-container {
     display: flex;
     justify-content: space-evenly;
@@ -73,5 +74,24 @@ a {
 
 .content ol {
     list-style-position: inside;
+}
+
+/* section-1 */
+
+
+
+/* footer styles */
+
+.footer {
+    padding: 12px;
+    background-color: #1F2937;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
