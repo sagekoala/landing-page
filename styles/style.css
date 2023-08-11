@@ -38,7 +38,7 @@ a {
 .header-container {
     display: flex;
     justify-content: space-between;
-    margin: 0 150px;
+    margin: 0 auto;
 }
 
 .left {
@@ -78,6 +78,8 @@ button {
     flex-direction: column;
     flex-wrap: wrap;
     flex: 1;
+    letter-spacing: 2px;
+    gap: 8px;
 }
 
 
@@ -132,8 +134,8 @@ button {
 }
 
 .examples img {
-    height: 120px;
-    width: 120px;
+    height: 150px;
+    width: 150px;
 }
 
 .section-1 .content {
@@ -194,6 +196,7 @@ button {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    gap: 4px;
 }
 
 /* footer */
