@@ -56,15 +56,19 @@ a {
 /* Note, content-container and .content apply to section-0 and section-1*/
 .content-container {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
-    height: 300px;
     padding: 10px;
     margin: 20px;
 }
 
 .content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
     width: 800px;
+
 }
 
 .text {
@@ -80,6 +84,9 @@ a {
 
 /* section-1 */
 
+.title {
+    font-size: 20px;
+}
 
 
 /* footer styles */
@@ -96,4 +103,5 @@ a {
     font-size: 18px;
     color: #E5E7EB;
 }
+
 
