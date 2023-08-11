@@ -65,8 +65,10 @@ a {
 }
 
 .text {
+    color: #1F2937;
     letter-spacing: 2px;
     margin: 8px 0;
+    font-size: 18px;
 }
 
 .content ol {
