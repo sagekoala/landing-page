@@ -24,6 +24,11 @@ li {
     list-style-type: none;
 }
 
+.header-container .right a:hover {
+    color: #3882F6;
+    text-decoration: underline;
+}
+
 a {
     color: #f9FAF8;
     text-decoration: none;
