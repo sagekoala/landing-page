@@ -55,3 +55,32 @@ a {
     font-size: 18px;
     color: #E5E7EB;
 }
+
+/* section-0 */
+
+img {
+    height: 325px;
+    width: 325px;
+}
+
+.examples {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 24px;
+    gap: 75px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 18px;
+    gap: 18px;
+}
+
+.text {
+    text-align: center;
+    font-size: 18px;
+}
