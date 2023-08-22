@@ -59,8 +59,8 @@ a {
 /* section-0 */
 
 img {
-    height: 325px;
-    width: 325px;
+    height: 275px;
+    width: 275px;
 }
 
 .examples {
@@ -83,4 +83,14 @@ img {
 .text {
     text-align: center;
     font-size: 18px;
+}
+
+.section-0-container .content {
+    display: flex;
+    height: 100px;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
 }
