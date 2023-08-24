@@ -55,3 +55,34 @@ a {
     font-size: 18px;
     color: #E5E7EB;
 }
+
+.main-image img {
+    height: 400px;
+    width: 400px;
+    border: 2px solid #1F2937;
+    padding: 8px;
+}
+
+.main-image-container {
+    display: flex;
+    justify-content: center;
+    border: 1px dotted pink;
+    background-color: #E5E7EB;
+}
+
+.text {
+    padding-top: 12px;
+    padding-left: 25px;
+}
+
+.image-section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+
+.image-section img{
+    height: 150px;
+    width: 150px;
+}
