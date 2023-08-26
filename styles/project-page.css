@@ -79,7 +79,7 @@ a {
 .image-section {
     display: flex;
     flex-wrap: wrap;
-    justify-content: flex-start;
+    justify-content: space-evenly;
     padding: 16px;
     gap: 8px;
 }
