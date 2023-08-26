@@ -65,12 +65,13 @@ a {
 
 .main-image-container {
     display: flex;
-    justify-content: center;
-    border: 1px dotted pink;
+    justify-content: flex-start;
+    padding: 16px;
     background-color: #E5E7EB;
 }
 
 .text {
+    font-size: 18px;
     padding-top: 12px;
     padding-left: 25px;
 }
@@ -78,6 +79,8 @@ a {
 .image-section {
     display: flex;
     flex-wrap: wrap;
+    justify-content: flex-start;
+    padding: 16px;
     gap: 8px;
 }
 
