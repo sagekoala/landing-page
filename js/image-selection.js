@@ -16,7 +16,7 @@ arrSmallImages.forEach((image) => {
 const previousBtn = document.querySelector(".previous-btn");
 const nextBtn = document.querySelector(".next-btn");
 
-function selectPreviousImage() {
+function getPreviousImage() {
 
     let newKey= 0;
 
@@ -28,7 +28,28 @@ function selectPreviousImage() {
     if ((intCurrentKey - 1) < 0) {
         newKey = (arrSmallImages.length - 1);
     } else {
-        newKey = parseInt(intCurrentKey) - 1;
+        newKey = intCurrentKey - 1;
+    }
+
+    // Find image with data-key=newKey, update main image 
+    const newCurrentImage = document.querySelector(`img[data-key="${newKey}"]`);
+    currentMainImage.src = newCurrentImage.src;
+    currentMainImage.setAttribute('data-key', newKey.toString());
+
+}
+
+function getNextImage() {
+    let newKey= 0;
+
+    // Get current main image and key
+    const currentMainImage = document.querySelector("#main-image");
+    const currentKey = currentMainImage.getAttribute("data-key");
+    const intCurrentKey = parseInt(currentKey);
+
+    if ((intCurrentKey + 1) > (arrSmallImages.length - 1)) {
+        newKey = 0;
+    } else {
+        newKey = intCurrentKey + 1;
     }
 
     // Find image with data-key=newKey, update main image 
@@ -40,4 +61,5 @@ function selectPreviousImage() {
 
 
 // Add event listener on buttons
-previousBtn.addEventListener('click', selectPreviousImage);
+previousBtn.addEventListener('click', getPreviousImage);
+nextBtn.addEventListener('click', getNextImage);
