@@ -80,6 +80,15 @@ img {
     gap: 18px;
 }
 
+.info a {
+    color: black;
+}
+
+.info a:hover {
+    color: #3882F6;
+    text-decoration: underline;
+}
+
 .text {
     text-align: center;
     font-size: 18px;
