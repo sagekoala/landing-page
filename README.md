@@ -23,3 +23,5 @@ Photo by Anete Lusina from Pexels: https://www.pexels.com/photo/instruments-prep
 Photo by Arın  Turkay: https://www.pexels.com/photo/white-and-orange-road-safety-cone-1088169/
 
 Photo by Edgard Motta: https://www.pexels.com/photo/stones-made-into-a-flooring-8454814/
+
+Photo by Errin Casano: https://www.pexels.com/photo/rocky-mountains-under-blue-sky-2356059/
