@@ -58,7 +58,7 @@ a {
 
 /* section-0 */
 
-/* Note, content-container and .content apply to section-0 and section-1*/
+/* Note, content-container and .content apply to section-0, section-1, and section-2*/
 .content-container {
     display: flex;
     flex-wrap: wrap;
@@ -87,11 +87,16 @@ a {
     list-style-position: inside;
 }
 
-/* section-1 */
+li {
+    list-style-type: none;
+}
+
+/* section-1 and section-2 */
 
 .title {
     font-size: 20px;
 }
+
 
 
 /* footer styles */
@@ -108,5 +113,7 @@ a {
     font-size: 18px;
     color: #E5E7EB;
 }
+
+
 
 
