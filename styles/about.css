@@ -73,7 +73,6 @@ a {
     flex-direction: column;
     gap: 10px;
     width: 800px;
-
 }
 
 .text {
@@ -81,23 +80,19 @@ a {
     letter-spacing: 2px;
     margin: 8px 0;
     font-size: 18px;
-}
-
-.content ol {
-    list-style-position: inside;
+    line-height: 24px;
 }
 
 li {
     list-style-type: none;
+    margin: 8px 0;
 }
 
 /* section-1 and section-2 */
 
 .title {
-    font-size: 20px;
+    font-size: 24px;
 }
-
-
 
 /* footer styles */
 
