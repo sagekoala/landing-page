@@ -84,8 +84,12 @@ a {
 }
 
 li {
-    list-style-type: none;
+    
     margin: 8px 0;
+}
+
+ol {
+    margin-left: 28px;
 }
 
 /* section-1 and section-2 */
@@ -94,13 +98,14 @@ li {
     font-size: 24px;
 }
 
+.introduction-section {
+    display: block;
+}
+
 .services-section {
     display: none;
 }
 
-.about-section {
-    display: none;
-}
 
 .certification-section {
     display: none;
@@ -111,6 +116,8 @@ li {
 
 .holding-pin {
     display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 .sidebar {
@@ -119,8 +126,7 @@ li {
     justify-content: center;
     padding: 24px;
     gap: 48px;
-    width: 60px;
-    margin-right: 50px;
+    border: 1px solid lightgray;
 }
 
 .content-section {
@@ -129,6 +135,10 @@ li {
     justify-content: center;
     align-items: center;
     padding: 40px;
+}
+
+.content-section img {
+    margin-left: 32px;
 }
 
 .selector {
