@@ -107,7 +107,7 @@ ol {
 }
 
 
-.certification-section {
+.certifications-section {
     display: none;
 }
 
@@ -120,19 +120,19 @@ ol {
     align-items: center;
 }
 
-.sidebar {
+.sidebar .selector {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     padding: 24px;
     gap: 48px;
-    border: 1px solid lightgray;
+    font-size: 18px;
 }
 
 .content-section {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     padding: 40px;
 }
@@ -141,10 +141,11 @@ ol {
     margin-left: 32px;
 }
 
-.selector {
-    width: fit-content;
-    padding: 10px;
+.selector:hover,
+.active {
+    width: 140px;
+    padding: 24px;
     background-color: #1F2937;
     color: white;
-    border: 1px solid black;
 }
+
