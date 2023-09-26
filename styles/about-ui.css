@@ -113,28 +113,20 @@ ol {
 
 
 /* holding-pin is main flex container for sidebar and content-section*/
-
-
 .holding-pin {
     display: flex;
-    justify-content: space-evenly;
-    height: 100vh;
-    margin-left: 0px;
-    padding-left: 0px;
 }
 
-
 .sidebar {
-    display: flex;
-    flex: 1;
-    flex-direction: column;
-    border-right: 4px solid lightgray;
+    background-color: #f8f8f8;
+    min-height: 100vh;
 }
 
 .sidebar .selector {
     width: 200px;
     padding: 24px;
     font-size: 18px;
+    flex: 1;
 }
 
 .content-section {
@@ -151,9 +143,8 @@ ol {
 
 .selector:hover,
 .active {
-    margin-left: 0px;
-    padding-left: 0px;
     background-color: #1F2937;
     color: white;
 }
+
 
